@@ -1,0 +1,18 @@
+/* styles.css */
+.star-container {
+  display: flex;
+  gap: 8px;
+}
+
+.star {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: gray;
+}
+
+.star:hover,
+.star.active {
+  color: gold; /* Active or hovered star color */
+}
